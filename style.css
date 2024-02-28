@@ -1,0 +1,89 @@
+
+body{
+    background-color: #7ea8be;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-size: auto;
+
+}
+#hed{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0) ;
+    font-weight: bolder;
+    font-size: 60px;
+    font-style: oblique;
+}
+.container{
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    font-size: 8vmin;
+    background-color: rgb(134, 192, 203);
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(33, 147, 196);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 3px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(33, 147, 196);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 3px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+#msg{
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msg-container{
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.hide{
+    display: none;
+}
+footer{
+    font-size: 13px;
+   background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.foot .credit a{
+    color:rgb(0, 0, 0)
+}
